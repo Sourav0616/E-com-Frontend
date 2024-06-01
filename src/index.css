@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.oval {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.ovalt {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.red::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
